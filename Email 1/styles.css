@@ -1,4 +1,153 @@
 *{
     box-sizing: border-box
 }
-
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+    font-family: arial , sans-serif;
+    color: #506078;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.user-greetings{
+    font-weight: bold;
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: white;
+}
+.header{
+    color:#263d5c;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.acct-details{
+    background-color: #dceff4;
+    padding: 15px 25px;
+    margin: 25px 0 30px;
+    border-radius: 8px;
+    width: 600px;
+}
+.main-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 0;
+}
+.border-line{
+    border-bottom: 1px solid #d2e2f3;
+    margin: 10px 0;
+}
+.main-text{
+    color: #526a82;
+    width: 300px;
+}
+.support-text{
+    color: #506078;
+    margin-bottom: 15px;
+    width: 300px;
+    text-align: right;
+    font-weight: bold;
+}
+.step-title{
+    color: #344c6a;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.step-subtitles{
+    color: #506078;
+    margin-bottom: 10px;
+}
+.step-list{
+    padding-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.online-bank{
+    margin-top:15px;
+    margin-bottom: 25px;
+}
+.btn-container{
+    margin-bottom: 30px;
+}
+.btn-container  a:hover {
+    background-color: #b50f4b;
+}
+.btn-container a {
+    display: inline-block;
+    background-color: #d4145a;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.security{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    background-color: #eaf6fa;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.security-content{
+    flex: 1;
+}
+.inner-security{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+.security-icon{
+    /* background-color: #b5e0ed; */
+    /* color: #245879; */
+    display: block;
+    border: 0;
+    min-width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+.security-text{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.sign-off{
+    color: #7b8795;
+    font-size: 12px;
+}
+.ad{
+    margin: 20px 0;
+}
+/* .footer{
+    color:#7b8795;
+    font-size: 12px;
+    text-align: center;
+} */
+@media(max-width: 500px) {
+    body{
+        padding: 10px;
+    }
+    .container{
+        padding: 20px;
+    }
+    .acct-details{
+        padding: 12px;
+    }
+    .main-details{
+        gap: 10px;
+        font-size: 12px;
+    }
+    .security{
+        padding: 12px;
+    }
+}

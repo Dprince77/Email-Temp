@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Enquiry Submission</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<table class="container">
+    <tr>
+        <td class="header">
+            <img src="../assets/Header.svg" alt="Globus Bank Header" class="header-img">
+        </td>
+    </tr>
+    <tr>
+        <td class="mainBody">
+            <p class="user-greetings">Dear {{staff}},</p>
+            <p class="info">A customer has submitted an enquiry through the bank's Contact Us form. Please review the details provided and ensure prompt resolution. Once the enquiry has been resolved, update its status in the Customer Service World as completed.</p>
+            <p class="sub-info">The customer can be contacted via the information below</p>
+
+            <p class="section-title">Customer Information</p>
+            <table class="acct-details">
+                <tr>
+                    <td class="main-details">
+                        <table>
+                            <tr>
+                                <td class="main-text">Full name</td>
+                                <td class="support-text">{{fullName}}</td>
+                            </tr>
+                            <tr>
+                                <td class="main-text">Email address</td>
+                                <td class="support-text">{{emailAddress}}</td>
+                            </tr>
+                            <tr>
+                                <td class="main-text">Phone number</td>
+                                <td class="support-text">{{phoneNumber}}</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <p class="section-title">Enquiry details</p>
+            <table class="acct-details">
+                <tr>
+                    <td class="main-details">
+                        <table>
+                            <tr>
+                                <td class="main-text">Reference number</td>
+                                <td class="support-text">{{referenceNumber}}</td>
+                            </tr>
+                            <tr>
+                                <td class="main-text">Inquiry type</td>
+                                <td class="support-text">{{inquiryType}}</td>
+                            </tr>
+                            <tr>
+                                <td class="main-text">Date submitted</td>
+                                <td class="support-text">{{dateSubmitted}}</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <table class="report">
+                <tr>
+                    <td class="report-content">
+                        <table class="inner-security">
+                            <tr>
+                                <td class="report-text">
+                                    <p class="report-title">Customer's message</p>
+                                    <p class="report-body">Hello, I recently noticed that my account statement does not reflect a transaction I made a few days ago. I would like to confirm whether the transaction was successfully processed and request an updated statement if necessary. Please assist me in resolving this issue.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <p class="link-instruction">Click the link below to view the enquiry in the Customer Service World</p>
+            
+            <table class="link-box">
+                <tr>
+                    <td class="link-content">
+                        <img src="../assets/link-02.svg"> <a href="https://csworld.globusbank.com" class="btn-link">https://csworld.globusbank.com</a>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+
+    <tr>
+        <td class="ad">
+            <img src="../assets/Ad section.svg" alt="Advertisement">
+        </td>
+    </tr>
+
+    <tr>
+        <td class="footer">
+            <img src="../assets/Footer.svg" alt="Footer">
+        </td>
+    </tr>
+</table>
+</body>
+</html>

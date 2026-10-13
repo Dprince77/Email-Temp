@@ -1,0 +1,170 @@
+ 
+*{
+    box-sizing:border-box;
+}
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    color: #525c70;
+}
+ 
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+ 
+.header {
+    padding: 0;
+}
+ 
+.header-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+ 
+ 
+.main-body {
+    padding: 25px 35px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+ 
+.greetings {
+    margin: 0 0 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #4d5872;
+}
+ 
+ 
+.welcome-text {
+    margin: 0 0 22px;
+    color: #687184;
+}
+ 
+ 
+.account {
+    width: 100%;
+    margin: 10px 0 25px;
+    background-color: #dceff4;
+    border-radius: 10px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+ 
+ 
+.main-details {
+    padding: 15px 25px;
+}
+ 
+.main-details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+ 
+ 
+.acct-details {
+    padding: 0 0 12px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #4d5872;
+}
+ 
+.main-text {
+    width: 50%;
+    padding: 14px 5px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #64718a;
+}
+ 
+ 
+.support-text {
+    padding: 14px 5px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    color: #465675;
+    overflow-wrap: anywhere;
+}
+ 
+ 
+.review {
+    margin: 25px 0 20px;
+    color: #687184;
+    line-height: 1.7;
+}
+ 
+ 
+div[btn-link] {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 20px 0 35px;
+}
+ 
+ 
+div[btn-link] img {
+    width: 17px;
+    height: 17px;
+}
+ 
+.btn-link {
+    color: #3979a8;
+    font-weight: bold;
+    text-decoration: underline;
+    overflow-wrap: anywhere;
+}
+ 
+.ad {
+    padding: 0;
+    margin: 0;
+}
+ 
+.ad img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+ 
+/* Footer */
+.footer {
+    padding: 0;
+    margin: 0;
+}
+ 
+.footer img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+ 
+@media screen and (max-width: 480px) {
+    body {
+        padding: 8px;
+    }
+ 
+    .main-body {
+        padding: 20px 16px;
+    }
+ 
+    .main-details {
+        padding: 12px;
+    }
+ 
+    .main-text,
+    .support-text {
+        font-size: 12px;
+    }
+ 
+    .main-text {
+        width: 45%;
+    }
+}
+ 
