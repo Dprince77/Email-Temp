@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<table class="container">
+    <tr>
+    <td class="header">
+        <img src="./assets/Header.svg" alt="Globus Bank Header" class="header-img">
+
+        <tr>
+         <td class="mainBody">
+                <p class="user-greetings">Dear {{userName}}</p>
+                <p class="welcomeText">Congratulations, and welcome to the Globus Bank family! We're thrilled to let you know that your account has been successfully opened. Thank you for choosing us to be part of your financial journey. Below are your account details</p>
+            
+
+            <table class="acctDetails">
+                <tr>
+                    <td class="mainDetails">
+                        <table>
+                            <tr>
+                                <td class="mainText">Account name</td>
+                                <td class="supportText">{{accountName}}</td>
+                            </tr>
+                            <tr>
+                                <td class="mainText">Account number</td>
+                                <td class="supportText">{{accountNumber}}</td>
+                            </tr>
+                            <tr>
+                                <td class="mainText">Account type</td>
+                                <td class="supportText">{{accountType}}</td>
+                            </tr>
+                            <tr>
+                                <td class="mainText">Channel</td>
+                                <td class="supportText">{{channel}}</td>
+                            </tr>
+                            <tr>
+                                <td class="mainText">Date opened</td>
+                                <td class="supportText">{{dateOpened}}</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <p class="stepTitle">Next steps</p>
+            <p class="stepSubTitle">To get the most out ofy our account, we recommend that you:</p>
+
+            <ul class="stepList">
+                <li>Complete your KYC/BVN verification to unlock full account features.</li>
+                <li>Activate your online banking profile.</li>
+                <li>Download the Globus Bank mobile app to ensure seamless transactions from your smartphone</li>
+                <li>Walk into our branch</li>
+            </ul>
+            <p class="onlineBankText">Click the button below to activate online banking</p>
+            
+            <div btnContainer>
+                <a href="" class="btnLink"></a>
+                <img src="./assets/Gb-Button.svg" alt="Globus Bank Online Banking">
+            </div>
+
+            <table class="security">
+                <tr>
+                    <td class="securityContent">
+                        <table class="innerSecurity">
+                            <tr>
+                                <td class="securityicon">
+                                    <img src="./assets/information-square.svg" alt="Information Icon">
+                                </td>
+                                <td class="securitytext">
+                                    <p class="securityTitle">Security notice</p>
+                                    <p class="securityBody">Your security matters to us. Please remember: Globus Bank will never ask for your PIN, password, or OTP. Never share these with anyone, including anyone claiming to be from Globus bank.</p>      
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <p class="supportText">If you have any questions, our customer support team is available 24/7 at 02038003384 or <a href="support@globusbank.com">support@globusbank.com.</a> We're excited to have you with us.</p>
+            <p class="signoff">Warm regards, <br> <span class="theTeam">The Globus Bank Team</span></p>
+         </td>
+        </tr>
+
+        <tr>
+            <td class="ad">
+                <img src="./assets/Ad section.svg" alt="Advertisement">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="footer">
+                <img src="./assets/Footer.svg" alt="Footer">
+            </td>
+        </tr>
+    </td>    
+    </tr>    
+</table>
+</body>
+</html>
