@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px 0;
+  background-color: #f4f5f7;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+.container {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 4px;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+.header,
+.ad,
+.footer {
+  padding: 0;
+  line-height: 0;
+}
+
+.header-img,
+.ad img,
+.footer img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 0;
+}
+
+.mainBody {
+  padding: 32px 28px;
+}
+
+.user-greetings {
+  margin: 0 0 14px 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.info {
+  margin: 0 0 24px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #4a5568;
+}
+
+.acct-details {
+  width: 100%;
+  background-color: #eaf2fa;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  border-collapse: collapse;
+}
+
+.main-details {
+  padding: 12px 20px;
+}
+
+.main-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.main-text {
+  padding: 10px 0;
+  font-size: 13.5px;
+  color: #5a6a85;
+  font-weight: 500;
+  text-align: left;
+  border-bottom: 1px solid #d2e2f3;
+}
+
+.support-text {
+  padding: 10px 0;
+  font-size: 13.5px;
+  color: #0b2545;
+  font-weight: 700;
+  text-align: right;
+  border-bottom: 1px solid #d2e2f3;
+}
+
+.main-details table tr:last-child .main-text,
+.main-details table tr:last-child .support-text {
+  border-bottom: none;
+}
+
+.report {
+  width: 100%;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  border-collapse: collapse;
+}
+
+.report-content {
+  padding: 20px;
+}
+
+.inner-security {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.report-text {
+  vertical-align: top;
+}
+
+.report-title {
+  margin: 0 0 14px 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.report-body,
+.report-body2,
+.report-body3 {
+  margin: 0 0 16px 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: #4a5568;
+}
+
+.attached {
+  margin: 20px 0 10px 0;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #2d3748;
+}
+
+.report-text div div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.report-text a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.report-text a img {
+  width: 36px;
+  height: auto;
+  display: block;
+}
+
+.compliance {
+  margin: 0 0 6px 0;
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #2d3748;
+}
+
+.handling {
+  margin: 0;
+  font-size: 13px;
+  color: #4a5568;
+  line-height: 1.5;
+}
