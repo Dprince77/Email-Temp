@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: #506078;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.header {
+    color: #263d5c;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.header-img,
+.ad img,
+.footer img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 0;
+}
+
+.user-greetings {
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+.welcomeText {
+    margin-bottom: 20px;
+}
+
+.step-title {
+    color: #344c6a;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.acct-details {
+    background-color: #dceff4;
+    padding: 15px 25px;
+    margin: 15px 0 25px;
+    border-radius: 8px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.main-details {
+    padding: 0;
+}
+
+.main-details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.main-text {
+    color: #526a82;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.support-text {
+    color: #506078;
+    padding: 10px 0;
+    text-align: right;
+    font-weight: bold;
+}
+
+.border-line {
+    border-bottom: 1px solid #d2e2f3;
+}
+
+.report {
+    width: 100%;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    border-collapse: collapse;
+}
+
+.report-content {
+    padding: 20px;
+}
+
+.report-title {
+    font-weight: bold;
+    font-size: 15px;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+.report-body {
+    color: #4a5568;
+    margin: 0;
+    line-height: 1.55;
+}
+
+.security {
+    background-color: #eaf6fa;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 15px;
+    border-collapse: collapse;
+}
+
+.security-content {
+    padding: 0;
+}
+
+.inner-security {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.security-icon {
+    width: 30px;
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.security-icon img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    border: 0;
+}
+
+.security-text {
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.security-title {
+    font-weight: bold;
+    color: #1a4a75;
+    margin-bottom: 4px;
+    font-size: 13.5px;
+}
+
+.security-body {
+    color: #2b5b88;
+    margin: 0;
+    line-height: 1.45;
+}
+
+.main-support-text {
+    margin-bottom: 20px;
+}
+
+.signoff {
+    color: #506078;
+    font-size: 14px;
+}
+
+.the-team {
+    font-weight: bold;
+    color: #2d3748;
+}
+
+.ad {
+    margin: 20px 0;
+}
+
+@media(max-width: 500px) {
+    body {
+        padding: 10px;
+    }
+    .container {
+        padding: 20px;
+    }
+    .acct-details {
+        padding: 12px;
+    }
+}

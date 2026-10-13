@@ -9,71 +9,63 @@
 <body>
 <table class="container">
     <tr>
-    <td class="header">
-        <img src="../assets/Header.svg" alt="Globus Bank Header" class="header-img">
+        <td class="header">
+            <img src="../assets/Header.svg" alt="Globus Bank Header" class="header-img">
+        </td>
+    </tr>
+    <tr>
+        <td class="main-body">
+            <p class="user-greetings">Dear {{userName}},</p>
+            <p class="welcomeText">Thank you for contacting Globus Bank. We've received your enquiry, and a member of our team will be in touch with you shortly. You can expect a response within 24 hours. Here is a copy of your enquiry.</p>
 
-        <tr>
-         <td class="mainBody">
-                <p class="user-greetings">Dear {{userName}}</p>
-                <p class="welcomeText">Congratulations, and welcome to the Globus Bank family! We're thrilled to let you know that your account has been successfully opened. Thank you for choosing us to be part of your financial journey. Below are your account details</p>
-            
-
-            <table class="acctDetails">
+            <p class="step-title">Enquiry details</p>
+            <table class="acct-details">
                 <tr>
-                    <td class="mainDetails">
+                    <td class="main-details">
                         <table>
                             <tr>
-                                <td class="mainText">Account name</td>
-                                <td class="supportText">{{accountName}}</td>
+                                <td class="main-text border-line">Reference number</td>
+                                <td class="support-text border-line">{{referenceNumber}}</td>
                             </tr>
                             <tr>
-                                <td class="mainText">Account number</td>
-                                <td class="supportText">{{accountNumber}}</td>
+                                <td class="main-text border-line">Inquiry type</td>
+                                <td class="support-text border-line">{{inquiryType}}</td>
                             </tr>
                             <tr>
-                                <td class="mainText">Account type</td>
-                                <td class="supportText">{{accountType}}</td>
-                            </tr>
-                            <tr>
-                                <td class="mainText">Channel</td>
-                                <td class="supportText">{{channel}}</td>
-                            </tr>
-                            <tr>
-                                <td class="mainText">Date opened</td>
-                                <td class="supportText">{{dateOpened}}</td>
+                                <td class="main-text">Date submitted</td>
+                                <td class="support-text">{{dateSubmitted}}</td>
                             </tr>
                         </table>
                     </td>
                 </tr>
             </table>
 
-            <p class="stepTitle">Next steps</p>
-            <p class="stepSubTitle">To get the most out ofy our account, we recommend that you:</p>
-
-            <ul class="stepList">
-                <li>Complete your KYC/BVN verification to unlock full account features.</li>
-                <li>Activate your online banking profile.</li>
-                <li>Download the Globus Bank mobile app to ensure seamless transactions from your smartphone</li>
-                <li>Walk into our branch</li>
-            </ul>
-            <p class="onlineBankText">Click the button below to activate online banking</p>
-            
-            <div btnContainer>
-                <a href="" class="btnLink"></a>
-                <img src="../assets/Gb-Button.svg" alt="Globus Bank Online Banking">
-            </div>
+            <table class="report">
+                <tr>
+                    <td class="report-content">
+                        <table class="inner-security">
+                            <tr>
+                                <td class="report-text">
+                                    <p class="report-title">Customer’s message</p>
+                                    <p class="report-body">Hello, I recently noticed that my account statement does not reflect a transaction I made a few days ago. I would like to confirm whether the transaction was successfully processed and request an updated statement if necessary. Please assist me in resolving this issue.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
 
             <table class="security">
                 <tr>
-                    <td class="securityContent">
-                        <table class="innerSecurity">
+                    <td class="security-content">
+                        <table class="inner-security">
                             <tr>
-                                <td class="securityicon">
+                                <td class="security-icon">
                                     <img src="../assets/information-square.svg" alt="Information Icon">
                                 </td>
-                                <td class="securitytext">
-                                    <p class="securityTitle">Security notice</p>
-                                    <p class="securityBody">Your security matters to us. Please remember: Globus Bank will never ask for your PIN, password, or OTP. Never share these with anyone, including anyone claiming to be from Globus bank.</p>      
+                                <td class="security-text">
+                                    <p class="security-title">Security notice</p>
+                                    <p class="security-body">Your security matters to us. Please remember: Globus Bank will never ask for your PIN, password, or OTP. Never share these with anyone, including anyone claiming to be from Globus bank.</p>      
                                 </td>
                             </tr>
                         </table>
@@ -81,24 +73,22 @@
                 </tr>
             </table>
 
-            <p class="supportText">If you have any questions, our customer support team is available 24/7 at 02038003384 or <a href="support@globusbank.com">support@globusbank.com.</a> We're excited to have you with us.</p>
-            <p class="signoff">Warm regards, <br> <span class="theTeam">The Globus Bank Team</span></p>
-         </td>
-        </tr>
+            <p class="main-support-text">We appreciate your patience and look forward to helping you.</p>
+            <p class="signoff">Warm regards, <br> <span class="the-team">The Globus Bank Customer Care Team</span></p>
+        </td>
+    </tr>
 
-        <tr>
-            <td class="ad">
-                <img src="../assets/Ad section.svg" alt="Advertisement">
-            </td>
-        </tr>
+    <tr>
+        <td class="ad">
+            <img src="../assets/Ad section.svg" alt="Advertisement">
+        </td>
+    </tr>
 
-        <tr>
-            <td class="footer">
-                <img src="../assets/Footer.svg" alt="Footer">
-            </td>
-        </tr>
-    </td>    
-    </tr>    
+    <tr>
+        <td class="footer">
+            <img src="../assets/Footer.svg" alt="Footer">
+        </td>
+    </tr>
 </table>
 </body>
 </html>
