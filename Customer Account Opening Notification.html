@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Account Opening Notification</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      font-family: 'Sora', sans-serif;
+      background-color: #c7e0f9;
+    "
+  >
+    <table
+      width="100%"
+      cellpadding="0"
+      cellspacing="0"
+      border="0"
+      align="center"
+      style="max-width: 600px; margin: 0 auto; background-color: #ffffff"
+    >
+      <!-- Header -->
+      <tr>
+        <td align="center">
+          <img
+            src="https://globusbank.com/Images/Header.svg"
+            alt="Globus Bank Header"
+            style="width: 100%; max-width: 600px; height: auto; display: block"
+          />
+        </td>
+      </tr>
+
+      <!-- Body -->
+      <tr>
+        <td style="padding: 1.5rem 1.25rem 0px 1.25rem">
+          <p
+            style="
+              margin: 0 0 1rem 0;
+              font-size: 1rem;
+              font-weight: 600;
+              color: #202939;
+            "
+          >
+            Dear {{userName}},
+          </p>
+          <p
+            style="
+              font-size: 1rem;
+              color: #4b5565;
+              line-height: 1.5rem;
+              margin: 0;
+            "
+          >
+            Congratulations, and welcome to the Globus Bank family! We're thrilled to let you know that your account has been successfully opened. Thank you for choosing us to be part of your financial journey. Below are your account details
+          </p>
+        </td>
+      </tr>
+
+      <!-- NESS Request Information Card -->
+      <tr>
+        <td style="padding: 1.5rem 1.25rem 0px 1.25rem">
+          <table
+            width="100%"
+            cellpadding="12"
+            cellspacing="0"
+            style="
+              background-color: #e4f0fc;
+              border-radius: 8px;
+              padding-right: 1.25rem;
+              padding-left: 1.25rem;
+            "
+          >
+            <tr>
+              <td style="padding: 12px 0px; border-bottom: 1px solid #d0e1f9">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td
+                      style="
+                        font-size: 14px;
+                        color: #4b5565;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 21px;
+                      "
+                    >
+                      Account name
+                    </td>
+                    <td
+                      align="right"
+                      style="
+                        font-size: 16px;
+                        color: #202939;
+                        font-weight: 600;
+                        font-style: normal;
+                        line-height: 24px;
+                      "
+                    >
+                      {{accountName}}
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 0px; border-bottom: 1px solid #d0e1f9">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td
+                      style="
+                        font-size: 14px;
+                        color: #4b5565;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 21px;
+                      "
+                    >
+                      Account number
+                    </td>
+                    <td
+                      align="right"
+                      style="
+                        font-size: 16px;
+                        color: #202939;
+                        font-weight: 600;
+                        font-style: normal;
+                        line-height: 24px;
+                      "
+                    >
+                      {{accountNumber}}
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 0px; border-bottom: 1px solid #d0e1f9">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td
+                      style="
+                        font-size: 14px;
+                        color: #4b5565;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 21px;
+                      "
+                    >
+                      Account type
+                    </td>
+                    <td
+                      align="right"
+                      style="
+                        font-size: 16px;
+                        color: #202939;
+                        font-weight: 600;
+                        font-style: normal;
+                        line-height: 24px;
+                      "
+                    >
+                      {{accountType}}
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 0px; border-bottom: 1px solid #d0e1f9">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td
+                      style="
+                        font-size: 14px;
+                        color: #4b5565;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 21px;
+                      "
+                    >
+                      Channel
+                    </td>
+                    <td
+                      align="right"
+                      style="
+                        font-size: 16px;
+                        color: #202939;
+                        font-weight: 600;
+                        font-style: normal;
+                        line-height: 24px;
+                      "
+                    >
+                      {{channel}}
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 0px">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td
+                      style="
+                        font-size: 14px;
+                        color: #4b5565;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 21px;
+                      "
+                    >
+                      Date opened
+                    </td>
+                    <td
+                      align="right"
+                      style="
+                        font-size: 16px;
+                        color: #202939;
+                        font-weight: 600;
+                        font-style: normal;
+                        line-height: 24px;
+                      "
+                    >
+                      {{dateOpened}}
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding: 1.5rem 1.25rem 0px 1.25rem">
+          <p
+            style="
+              font-size: 1rem;
+              color: #4b5565;
+              line-height: 1.5rem;
+              margin: 0;
+            "
+          >
+            <strong>Next steps</strong><br>
+            <p
+            style="
+              margin: 0 0 1rem 0;
+              font-size: 0.9rem;
+              color: #4b5565;
+              line-height: 1.5rem;
+            "
+          >
+            To get the most out of your account, we recommend that you:
+            <ul style="
+              margin: 0 0 1rem 0;
+              font-size: 0.9rem;
+              color: #4b5565;
+              line-height: 1.5rem;
+            ">
+              <li>Complete your KYC/BVN verification to unlock full account features.</li>
+              <li>Activate your online banking profile.</li>
+              <li>Download the Globus Bank mobile app to ensure seamless transactions from your smartphone</li>
+              <li>Walk into our branch</li>
+            </ul>
+          </p>
+          </p>
+        </td>
+      </tr>
+      <!-- Support Info -->
+      <tr>
+        <td style="padding: 1.5rem 1.25rem 0px 1.25rem">
+          <p
+            style="
+              margin: 0 0 1rem 0;
+              font-size: 0.9rem;
+              color: #4b5565;
+              line-height: 1.5rem;
+            "
+          >
+            Click the link below to review the customer details and uploaded documents
+          </p>
+          <p style="margin: 0 0 1.8rem 0">
+            <a
+              href="https://csworld.globusbank.com"
+              target="_blank"
+              style="
+                background-color: red;
+                color: white;
+                text-decoration: none;
+                font-family: 'Sora', sans-serif;
+                font-size: 0.9rem;
+                font-weight: 600;
+                display: inline-flex;
+                align-items: center;
+                border: 2px solid #c8e0f9;
+                border-radius: 8px;
+                padding: 12px 16px;
+              "
+            >
+                <img
+                src="https://globusbank.com/Images/linkattach.svg"
+                alt="Link"
+                style="
+                  width: 1rem;
+                  height: 1rem;
+                  vertical-align: middle;
+                  margin-right: 1rem;
+                "
+              />
+              Online Banking
+            </a>
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding: 0 1rem 0;">
+            <table cellspacing="0" cellpadding="0" border="0" style="
+                  margin: 0 0 1.8rem 0;
+                  background-color: #e4f0fc;
+                  border: 2px solid #c8e0f9;
+                  border-radius: 8px;
+                  font-family: 'Sora', sans-serif;
+                ">
+              <tr>
+                <td valign="top" style="padding: 12px 0px 12px 16px;">
+                  <img
+                    src="https://globusbank.com/Images/linkattach.svg"
+                    alt="Link"
+                    height="16"
+                    style="
+                    width: 1rem;
+                    height: 1rem;
+                    display: block;
+                    "
+                  />
+                </td>
+                <td valign="top" style="
+                      padding: 12px 16px 12px 8px;
+                      color: #4572bb;
+                      font-size: 0.9rem;
+                      font-weight: 600;
+                      line-height: 1.4;
+                    ">
+                  Security notice 
+                  <span style="display: block; font-size: 0.8rem; font-weight: 400; margin-top: 4px;">
+                    Your security matters to us. Please remember: Globus Bank will never ask for your PIN, password, or OTP. Never share these with anyone, including anyone claiming to be from Globus bank.
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <p
+            style="
+              margin: 0 0 1rem 0;
+              font-size: 0.9rem;
+              color: #4b5565;
+              line-height: 1.5rem;
+            "
+          >
+            If you have any questions, our customer support team is available 24/7 at 02038003384 or support@globusbank.com.<br> We're excited to have you with us. Warm regards,The Globus Bank Team
+          </p>
+          <p
+            style="
+              margin: 0 0 1rem 0;
+              font-size: 1rem;
+              color: #4b5565;
+              line-height: 1.5rem;
+            "
+          >
+            Warm regards,<br> The Globus Bank Team
+          </p>
+          </td>
+      </tr>
+      
+      
+      <!-- Advertisement Image -->
+      <tr>
+        <td>
+          <img
+            src="https://globusbank.com/Images/adtrade.svg"
+            alt="Ad Banner"
+            style="width: 100%; display: block"
+          />
+        </td>
+      </tr>
+
+      <!-- Footer -->
+      <tr>
+        <td
+          style="
+            background-color: #002b56;
+            padding: 2rem 1rem;
+            text-align: center;
+          "
+        >
+          <p
+            style="
+              margin: 0;
+              color: #ffffff;
+              font-size: 0.75rem;
+              line-height: 1.5rem;
+            "
+          >
+            Copyright © Globus Bank Limited 2019–2025.
+          </p>
+          <!-- Social Icons -->
+          <table
+            align="center"
+            cellpadding="0"
+            cellspacing="15"
+            style="margin: 0 auto"
+          >
+            <tr>
+              <td>
+                <a
+                  href="https://www.facebook.com/GlobusBankNG/"
+                  target="_blank"
+                >
+                  <img
+                    src="https://globusbank.com/Images/facebooktrade.svg"
+                    alt="facebook icon"
+                    width="36"
+                    height="36"
+                    style="display: block"
+                  />
+                </a>
+              </td>
+              <td>
+                <a
+                  href="https://www.instagram.com/globusbankng?igsh=dTJybTNhanVvbnl5"
+                  target="_blank"
+                >
+                  <img
+                    src="https://globusbank.com/Images/instagramtrade.svg"
+                    alt="instagram icon"
+                    width="36"
+                    height="36"
+                    style="display: block"
+                  />
+                </a>
+              </td>
+              <td>
+                <a href="https://x.com/globusbankng?s=21" target="_blank">
+                  <img
+                    src="https://globusbank.com/Images/twittertrade.svg"
+                    alt="X icon"
+                    width="36"
+                    height="36"
+                    style="display: block"
+                  />
+                </a>
+              </td>
+              <td>
+                <a
+                  href="https://ng.linkedin.com/company/globusbankng"
+                  target="_blank"
+                >
+                  <img
+                    src="https://globusbank.com/Images/linkedintrade.svg"
+                    alt="linkedin icon"
+                    width="36"
+                    height="36"
+                    style="display: block"
+                  />
+                </a>
+              </td>
+              <td>
+                <a href="https://globusbank.com/contact.html" target="_blank">
+                  <img
+                    src="https://globusbank.com/Images/email.svg"
+                    alt="contact icon"
+                    width="36"
+                    height="36"
+                    style="display: block"
+                  />
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
